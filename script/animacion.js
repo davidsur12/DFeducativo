@@ -1,5 +1,5 @@
 
-var user="";
+var user="ji";
 function getName() {
 	document.getElementById("text2").value = document.getElementById("text1").value;
 }
@@ -8,6 +8,7 @@ function getName() {
 function validarUser() {
 
 	user = document.querySelector("div #name").value;
+	window.localStorage.setItem("user" , user);
 	if(user.length > 0){
 		//si los caracteres ingresados por el usuario son mallores a 0 la validacion es valida
 		//window.location.href = "selectModulo.html";
@@ -28,10 +29,10 @@ function validarUser() {
 }
 
 function getUser(){
-
-	document.getElementById('user').innerHTML = user;
+//recupero el valor del usuario
+	document.getElementById('user').innerHTML = "Bienbenido " + window.localStorage.getItem("user");
 
 }
-document.getElementById('userr').innerHTML = "ksalñdk";
+
 
 

@@ -48,6 +48,7 @@ background-color: #FAF202;
     margin-bottom: 20px;
     text-align: center;
     white-space: nowrap;
+    margin-top: 20px;
 }
 #menu p{
    color: aliceblue;
@@ -74,6 +75,15 @@ background-color: #FAF202;
     float: left;
     width: 4%;
     white-space: nowrap; 
+}
+
+#user{
+
+
+color: aliceblue;
+
+font-size: 30px;
+
 }
 
 
