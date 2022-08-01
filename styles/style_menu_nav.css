@@ -89,7 +89,7 @@ body {
     background-color: rgb(255, 255, 255);
     
     margin: 0px auto;
-    margin-top: 40px ;
+    margin-top: 20px ;
 
 
 
@@ -137,7 +137,8 @@ body {
 #input button:hover{
 
     text-shadow: 0 1px 1px rgba(0,0,0,0.5);
-	background:brown;
+	background:#FFD27D;
+    opacity: 2;
 }
 
 h1{
@@ -154,4 +155,8 @@ text-size-adjust: 50%;
 
     margin-top: 5%;
 }
+a{
 
+float:inline-start;
+
+}

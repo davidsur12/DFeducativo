@@ -1,3 +1,5 @@
+
+var user="";
 function getName() {
 	document.getElementById("text2").value = document.getElementById("text1").value;
 }
@@ -5,7 +7,7 @@ function getName() {
 
 function validarUser() {
 
-	var user = document.querySelector("div #name").value;
+	user = document.querySelector("div #name").value;
 	if(user.length > 0){
 		//si los caracteres ingresados por el usuario son mallores a 0 la validacion es valida
 		//window.location.href = "selectModulo.html";
@@ -25,6 +27,11 @@ function validarUser() {
 
 }
 
+function getUser(){
 
+	document.getElementById('user').innerHTML = user;
+
+}
+document.getElementById('userr').innerHTML = "ksalñdk";
 
 
