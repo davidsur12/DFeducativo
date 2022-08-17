@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script src="../script/anime.min.js">
+    </script>
+
+    <script>
+       anime({
+  targets: '.css-prop-demo .el',
+  left: '240px',
+  backgroundColor: '#FFF',
+  borderRadius: ['0%', '50%'],
+  easing: 'easeInOutQuad'
+})
+
+    </script>
+
+</head>
+
+<body>
+    <div class="container">
+        <article>
+          <svg
+            class="youtube"
+            xmlns="http://www.w3.org/2000/svg"
+            height="100px"
+            width="100px"
+            viewBox="-10 0 600 500"
+          >
+            <path
+              stroke="red"
+              stroke-width="10"
+              fill="#f1f1f1"
+              d="M459 61.2C443.7 56.1 349.35 51 255 51S66.3 56.1 51 61.2C10.2 73.95 0 163.2 0 255s10.2 181.05 51 193.8c15.3 5.1 109.65 10.2 204 10.2s188.7-5.1 204-10.2c40.8-12.75 51-102 51-193.8S499.8 73.95 459 61.2zM204 369.75v-229.5L357 255 204 369.75z"
+            />
+          </svg>
+          <h2>My Cool Video</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta vitae
+            totam voluptatibus consequatur tempore, inventore ducimus corrupti eos
+            nisi quae similique vero quasi nam magnam sequi quaerat. Sunt labore
+            quae iste praesentium suscipit minus, repellendus maxime laborum eum
+            doloribus, dolorum quia inventore quibusdam mollitia debitis nam. Quis
+            facilis consectetur itaque?
+          </p>
+          <a href="#" class="button">Download</a>
+        </article>
+      </div>
+</body>
+<script>
+    const button = document.querySelector('.button');
+
+const mouseHoverAnimation = () => {
+    anime({
+        targets: button,
+        width: '100%',
+        scale: {
+            delay: 800,
+            value: 1.5
+        },
+        duration: 1500
+    })
+}
+
+anime({
+  targets: '.css-selector-demo .el',
+  translateX: 250
+});
+
+const mouseOutAnimation = () => {
+    anime({
+        targets: button,
+        width: '50%',
+        scale: {
+            delay: 800,
+            value: 1
+        },
+        duration: 1500
+    })
+}
+
+anime({
+    targets: '.youtube path',
+    strokeDashoffset: [anime.setDashoffset, 0],
+    easing: 'easeInOutSine',
+    duration: 1500,
+    direction: 'alternate',
+    loop: true
+})
+
+
+button.addEventListener('mouseover', mouseHoverAnimation)
+button.addEventListener('mouseout', mouseOutAnimation)
+  </script>
+</html>
