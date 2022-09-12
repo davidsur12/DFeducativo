@@ -80,11 +80,11 @@ h1 {
 }
 
 h1 {
-    
-   position: relative; 
-   margin-top: -60px;
-   margin-left: 70px;
-    
+
+    position: relative;
+    margin-top: -60px;
+    margin-left: 70px;
+
 }
 
 .atras {
@@ -94,6 +94,74 @@ h1 {
     margin-left: 0%;
     width: 70px;
     height: 70px;
-    
 
+
+}
+
+.imageTitulo {
+    /*
+
+    display: flex;
+    justify-content: center;
+    */
+    margin: 0 auto;
+
+
+    margin-top: 3%;
+}
+
+.imageTitulo img {
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 20%;
+
+}
+
+.imageTitulo .parrafo {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5%;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+.link2 {
+    background-color: yellow;
+    color: black;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 0%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    width: auto;
+    float: right;
+    margin-right: 60px;
+    padding: 17px;
+    padding-right: 30px;
+    padding-left: 30px;
+
+    overflow: auto;
+    margin-bottom: 2%;
+
+
+}
+
+.imageTitulo a:hover{
+    background-color: aliceblue;
 }
