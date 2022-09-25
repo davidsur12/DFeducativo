@@ -1,5 +1,5 @@
 body {
-    background-color: aquamarine;
+    background-color: #064A7C ;
 }
 
 img {
@@ -63,6 +63,7 @@ img {
     justify-content: center;
     margin: 0 auto;
     
+    
    
       
 
@@ -80,8 +81,33 @@ img {
 
         border-radius: 10px;
         padding: 30px;
+        text-decoration: none;
 
 
+    }
+    .fila1 a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .respuesta2 a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .respuesta3 a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .respuesta4 a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     .respuesta2 {
