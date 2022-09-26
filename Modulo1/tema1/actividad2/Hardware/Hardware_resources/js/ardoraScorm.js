@@ -33,5 +33,5 @@ else{if (score > 0) {api.LMSSetValue("cmi.core.score.raw", score)} else {api.LMS
 api.LMSSetValue("cmi.core.score.raw", 0);}else{if (score > 0) {api.LMSSetValue("cmi.core.score.raw", score)} else {api.LMSSetValue("cmi.core.score.raw", 0)}}}api.LMSFinish("");}
 else{}}
 function getAPIHandle() {if (apiHandle == null) {apiHandle = getAPI();}return apiHandle;}
-function getAPI() {var theAPI = findAPI(window);if ((theAPI == null) && (window.opener != null) && (typeof (window.opener) != "undefined")) {theAPI = findAPI(window.opener);}return theAPI}
+function getAPI() {var theAPI = findAPI(window);if ((theAPI == null) && (window.opener != null) && (typeof (window.opener) != "encotrado")) {theAPI = findAPI(window.opener);}return theAPI}
 function findAPI(win) {while ((win.API == null) && (win.parent != null) && (win.parent != win)) {apiAttempts++;if (apiAttempts > 5) {alert("Error API not found");return null;}win = win.parent;}return win.API;}

@@ -1,6 +1,12 @@
 //Creado con Ardora - www.webardora.net
 //bajo licencia Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
 //para otros usos contacte con el autor
+
+
+
+
+
+
 function initAct() {
   calcMaxWidth(); paintQuest(); paintbGame(); paintOk(); $(".bGame").css("background", colorButton);
   if (tiAval) { parent.iniciaActividade() }
@@ -69,6 +75,7 @@ function paintbGame() {
   });
   $("#ardoraActCanvas").attr("tabindex", "0");
   $("#buttonOk").attr("tabindex", "0"); $("#buttonOk").keydown(function (e) { if (e.which != 9) { isCorrect(); } }); $("#buttonOk").focus(function (e) { removeOk(); }); $("#buttonOk").blur(function (e) { paintOk(); });
+
 }
 function showButtonNext() {
 
@@ -105,8 +112,9 @@ function showButtonNext() {
     paintbGame();
     $(".bGame").css("backgroundColor", colorButton); $(".bGame").css("color", colorBack);
   });
+
 }
-function showButtonNext2(){
+function showButtonNext2() {
   $("#ardoraActCanvas").unbind();
   document.getElementById("ardoraActCanvas").style.zIndex = 0;
   document.getElementById("ardoraActCanvas").style["visibility"] = "hidden";
@@ -117,6 +125,7 @@ function showButtonNext2(){
 
 }
 
+var cont = 0;
 function isCorrect() {
 
 
@@ -125,15 +134,50 @@ function isCorrect() {
 
   }
   if (correct) {
-    alert("terminaste de forma exitosa");
+    swal({
+      icon: "success", title: 'Felicitaciones',
+      button: false,
+      showConfirmButton: false,
+      timer: 1500
+
+    })
 
     indexG++; if (indexG == wordsG.length) { $("#ardoraActCanvas").attr("aria-label", messageOk); showMessage("Okhjdskfhjkdshfjkdshfjkdshfjkdshfjkdsh"); } else {
       showButtonNext2();
 
     }
+    cont++;
+    if (cont >= 3) {
+
+      //alert(cont);
+      //location.href ="selectModulo.html";
+      //location.href="tiposhw4.html";
+      location.href = "../../../modulo1.html";
+      /*
+      la iddea es dirigirse a un html y del html salir hacia el documento deseado
+      */
+      cont = 0;
+    }
   }
   else {
-    alert("no terminaste de forma exitosa");
+
+
+
+    try {
+      /*"warning"
+   "error"
+   "success"
+   "info" */
+      swal({
+        icon: "warning", title: 'Por favor termina la actividad para continuar',
+        showConfirmButton: false,
+
+      })
+    }
+    catch (e) {
+
+      alert(e); // pasa el objeto de la excepción al manejador de errores
+    }
     /*
     attempts++; score = score - scoreDec; if (tiAttempts) {
       if (attempts > attemptsMax) { $("#ardoraActCanvas").attr("aria-label", messageAttempts); showMessage("Attempts"); } else { $("#ardoraActCanvas").attr("aria-label", messageError); showMessage("fdsfndkjslfdkslfj"); }
@@ -146,5 +190,8 @@ function showSol(oldTypeGame) {
   var i = 0; $("ul li").each(function (ind, e) { $(e).html("<p>" + aforWords(wordsG[indexG]).substr(i, 1) + "</p>"); i++; });
 }
 function paintBack() { }
-function aforWords(input) { return decodeURIComponent(escape(window.atob(input))); }
+function aforWords(input) {
+
+  return decodeURIComponent(escape(window.atob(input)));
+}
 Array.prototype.in_array = function () { for (var j in this) { if (this[j] == arguments[0]) { return true; } } return false; }
