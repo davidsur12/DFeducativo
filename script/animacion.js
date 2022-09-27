@@ -12,7 +12,7 @@ function validarUser() {
 	if(user.length > 0){
 		//si los caracteres ingresados por el usuario son mallores a 0 la validacion es valida
 		//window.location.href = "selectModulo.html";
-		location.href ="";
+		location.href ="selectModulo.html";
 
 	}else{
 		//alert("por favor ingresa tu nombre");

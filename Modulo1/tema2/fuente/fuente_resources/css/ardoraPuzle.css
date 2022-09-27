@@ -7,16 +7,15 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     background-color: #064A7C;
+    display: flex;
+    justify-content: center;
 }
 
 body {
     margin: 0;
-    margin: 0;
-    padding: 0;
-    margin-top: 30px;
     background-color: #064A7C;
-
-   
+    display: flex;
+    justify-content: center;
 }
 
 article,
@@ -26,7 +25,6 @@ header,
 nav,
 section {
     display: block;
-    background-color: #064A7C;
 }
 
 h1 {
@@ -38,12 +36,10 @@ figcaption,
 figure,
 main {
     display: block;
-    background-color: #064A7C;
 }
 
 figure {
     margin: 1em 40px;
-    background-color: #064A7C;
 }
 
 hr {
@@ -55,7 +51,6 @@ hr {
 pre {
     font-family: monospace, monospace;
     font-size: 1em;
-    background-color: #064A7C;
 }
 
 a {
@@ -67,19 +62,16 @@ abbr[title] {
     border-bottom: none;
     text-decoration: underline;
     text-decoration: underline dotted;
-    background-color: #064A7C;
 }
 
 b,
 strong {
     font-weight: inherit;
-    background-color: #064A7C;
 }
 
 b,
 strong {
     font-weight: bolder;
-    background-color: #064A7C;
 }
 
 code,
@@ -87,23 +79,19 @@ kbd,
 samp {
     font-family: monospace, monospace;
     font-size: 1em;
-    background-color: #064A7C;
 }
 
 dfn {
     font-style: italic;
-    background-color: #064A7C;
 }
 
 mark {
     background-color: #ff0;
     color: #000;
-    background-color: #064A7C;
 }
 
 small {
     font-size: 80%;
-    background-color: #064A7C;
 }
 
 sub,
@@ -125,7 +113,6 @@ sup {
 audio,
 video {
     display: inline-block;
-    background-color: #064A7C;
 }
 
 audio:not([controls]) {
@@ -150,19 +137,16 @@ textarea {
     font-size: 100%;
     line-height: 1.15;
     margin: 0;
-    background-color: #064A7C;
 }
 
 button,
 input {
     overflow: visible;
-    background-color: #064A7C;
 }
 
 button,
 select {
     text-transform: none;
-    background-color: #064A7C;
 }
 
 button,
@@ -178,7 +162,6 @@ button::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
     border-style: none;
     padding: 0;
-    background-color: #064A7C;
 }
 
 button:-moz-focusring,
@@ -199,7 +182,6 @@ legend {
     max-width: 100%;
     padding: 0;
     white-space: normal;
-    background-color: #064A7C;
 }
 
 progress {
@@ -209,7 +191,6 @@ progress {
 
 textarea {
     overflow: auto;
-    background-color: #064A7C;
 }
 
 [type="checkbox"],
@@ -241,7 +222,6 @@ textarea {
 details,
 menu {
     display: block;
-    background-color: #064A7C;
 }
 
 summary {
@@ -250,51 +230,40 @@ summary {
 
 canvas {
     display: inline-block;
-    background-color: #064A7C;
 }
 
 template {
     display: none;
-    background-color: #064A7C;
 }
 
 [hidden] {
     display: none;
-    background-color: #064A7C;
 }
 
 /*!END normalize.css v7.0.0*/
 .ui-corner-all {
     -webkit-border-radius: 4px;
     border-radius: 4px;
-    background-color: #064A7C;
 }
 
 body {
-    background-color: #064A7C;
-    display: flex;
-    justify-content: center;
-
-  
+    background-color: black;
 }
 
 #ardoraMain {
     font-family: Verdana, Geneva, sans-serif;
-    color: #fff;
+    color: #000000;
     padding: 5px;
     position: relative;
-    background-color: #064A7C;
-   
 }
 
 #ardoraEnu {
-    font-size: 12px;
+    
     position: relative;
     padding: 5px;
     margin-bottom: 10px;
-    text-align: justify;
-    background-color: #064A7C;
-   
+    text-align: center;
+    font-size: 50px;
 }
 
 #ardoraAlumSCORM {
@@ -314,16 +283,18 @@ body {
     border-radius: 4px;
     -webkit-box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.5);
     box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.5);
-    font-size: 10px;
+    font-size: 30px;
     background: rgba(255, 128, 0, 0.5);
-    background-color: #064A7C;
+    display: flex;
+    justify-content: center;
 }
 
 #ardoraAlumSCORM p {
     padding: 0px;
     margin: 0px;
     padding-left: 2px;
-    background-color: #064A7C;
+    display: flex;
+    justify-content: center;
 }
 
 #buttonOk {
@@ -332,22 +303,13 @@ body {
     width: 70px;
     bottom: 0px;
     cursor: pointer;
-   
-    /*
-     border-style: solid;
+    border-style: solid;
     border-width: 1px;
     -webkit-border-radius: 4px;
     -khtml-border-radius: 4px;
     border-radius: 4px;
     -webkit-box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.5);
     box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.5);
-    */
-}
-#buttonOk img{
-    width: 70px;
-    height: 70px;
-
-
 }
 
 #ardoraTabCanvas {
@@ -360,27 +322,90 @@ body {
     -webkit-box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.5);
     box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.5);
     height: 49px;
-    background-color: #064A7C;
+    display: flex;
+    justify-content: center;
+}
+
+.imaCell {
+    display: table;
+    text-align: center;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+    position: absolute;
+    border-color: black;
+    border-style: dotted;
+    border-width: 1px;
+    width: 79px;
+    height: 106px;
+    display: flex;
+    justify-content: center;
 }
 
 #ardoraActCanvas {
     z-index: 0;
     position: absolute;
     visibility: hidden;
-    top: 0;
-    left: 0;
-     background-color: #064A7C;
+    display: flex;
+    justify-content: center;
+}
+
+.imaCell img {
+    z-index: 0;
+    -moz-box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.75);
+    -webkit-box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.75);
+    box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.75);
+    display: flex;
+    justify-content: center;
+}
+
+#ima11 {
+    top: 3px;
+    left: 3px;
+}
+
+#ima12 {
+    top: 109px;
+    left: 3px;
+}
+
+#ima21 {
+    top: 3px;
+    left: 82px;
+}
+
+#ima22 {
+    top: 109px;
+    left: 82px;
+}
+
+#ima31 {
+    top: 3px;
+    left: 161px;
+}
+
+#ima32 {
+    top: 109px;
+    left: 161px;
+}
+
+.imaCell_img {
+    display: table-cell;
+    vertical-align: middle;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
 }
 
 #ardoraAct {
+    width: 237px;
+    height: 212px;
     position: relative;
-    margin-left: 10px;
     margin-right: 10px;
-    padding: 0 0 0 0;
+    padding: 5px;
     float: left;
-    /*colo de fondo de la actividad*/
-    background-color: #fff;
-   
+    display: flex;
+    justify-content: center;
 }
 
 #ardoraTab {
@@ -390,87 +415,6 @@ body {
     visibility: visible;
     padding: 5px;
     float: left;
-    background-color: #064A7C;
-}
-
-.bLetter {
-    display: table;
-    font-size: 24px;
-    width: 36px;
-    height: 36px;
-    border-style: solid;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 4px;
-    position: absolute;
-    background-color: #91962F;
-    color: #FFFDFD;
-    -webkit-box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.5);
-    box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.5);
-}
-
-.bGame {
-    list-style-type: none;
-    font-size: 36px;
-    width: 48px;
-    height: 48px;
-    border-style: solid;
-    text-align: center;
-    cursor: pointer;
-    -webkit-border-radius: 4px;
-    -khtml-border-radius: 4px;
-    border-radius: 4px;
-    -webkit-box-shadow: inset 4px 4px 4px rgba(50, 50, 50, 0.5);
-    box-shadow: inset 4px 4px 4px rgba(50, 50, 50, 0.5);
-    border-width: 1px;
-    float: left;
-    margin-left: 2px;
-    background-color: #064A7C;
-}
-
-ul {
-    float: left;
-    list-style-type: none;
-    padding: 0;
-    position: relative;
-    left: 50%;
-}
-
-li {
-    float: left;
-    position: relative;
-    right: 50%;
-}
-
-.bGame p {
-    padding: 0px;
-    margin: 4px 0 0 0;
-    
-}
-
-.imaLeft {
-    margin-right: 5px;
-    margin-bottom: 5px;
-}
-
-.imaRight {
-    margin-left: 5px;
-    margin-bottom: 5px;
-}
-
-#ardoraQuest {
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 30px;
-    color: #000000;
-    text-align: center;
-    padding: 0 5px 0 5px;
-}
-
-#ardoraImage {
-    width: 100%;
-    text-align: center;
-}
-
-#ardoraQuest img {
-    cursor: pointer;
+    display: flex;
+    justify-content: center;
 }
