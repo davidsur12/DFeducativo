@@ -9,6 +9,6 @@ document.getElementById('userr').innerHTML = "ksalñdk";
 
 function getUser(){
 
-	document.getElementById('userr').innerHTML = "Bienvenido " + window.localStorage.getItem("user");
+	document.getElementById('userr').innerHTML = "Bienvenido " + window.localStorage.getItem("user") + "  que desea aprender ";
 
 }

@@ -30,7 +30,7 @@ function validarUser() {
 
 function getUser(){
 //recupero el valor del usuario
-	document.getElementById('user').innerHTML = "Bienbenido " + window.localStorage.getItem("user");
+	document.getElementById('user').innerHTML = "Bienbenido " + window.localStorage.getItem("user") + " <br> <br>Selecciona el modulo que deseas aprender";
 
 }
 

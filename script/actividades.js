@@ -34,7 +34,7 @@ function respuesta1(id, respuesta) {
 
 function respuesta2(id, respuesta) {
 
-   
+    
     var agregado = false;
     var index = 0;
     for (var i = 0; i < pre.length; i++) {
@@ -52,8 +52,51 @@ function respuesta2(id, respuesta) {
         res.push(respuesta);
     }
     for (var j = 0; j < res.length; j++) {
-        alert("index " + j + " pregunta " + pre[j] + " respuesta " + res[j]);
+        //alert("index " + j + " pregunta " + pre[j] + " respuesta " + res[j]);
+        /*"warning"
+   "error"
+   "success"
+   "info" */
+ 
+
+     if(respuesta=="c"){
+            swal({
+                icon: "success", title: 'Felicitaciones Respuesta correcta',
+                button: false,
+                showConfirmButton: false,
+                timer: 1500
+          
+              })
+              setTimeout(function() {
+               
+                swal({
+                    icon: "success", title: 'Felicitaciones Respuesta correcta',
+                    button: false,
+                    showConfirmButton: false,
+                    timer: 1500
+              
+                  })
+                  location.href = "lecsion2.html";
+                // Aquí el código que se tiene que ejecutar con retardo
+            }, 3000)
+            
+             
+        }else{
+            swal({
+                icon: "error", title: 'Respuesta Equivocada',
+                button: false,
+                showConfirmButton: false,
+                timer: 1500
+          
+              })
+              delay(2);
+              location.href = "lecsion2.html";
+
+        }
+       
 
     }
     location.href = "lecsion2.html";
+         
+    //location.href = "lecsion2.html";
 }
