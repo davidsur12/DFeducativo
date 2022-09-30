@@ -111,7 +111,7 @@ function isCorrect() {
         timer: 1500
   
       });
-    
+    location.href("../../procesador/procesador.htm");
     }
 }
 function goTime() { clearInterval(timeInterval); showMessage("Time"); }

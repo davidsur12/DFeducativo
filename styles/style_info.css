@@ -1,6 +1,6 @@
 body{
 
-    background-color: blue;
+    background-color: #064A7C;
 
 }
 
@@ -37,4 +37,8 @@ a img{
     height: 100px;
     position: absolute;top: 0;left: 0;
    
+}
+.icono{
+
+    width: 150px;
 }

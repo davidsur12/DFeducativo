@@ -426,3 +426,51 @@ a img{
     position: absolute;top: 0;left: 0;
    
 }
+.link2 {
+    background-color: yellow;
+    color: black;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 0%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    width: auto;
+    float: right;
+    margin-right: 60px;
+    padding: 17px;
+    padding-right: 30px;
+    padding-left: 30px;
+    overflow: auto;
+    margin-bottom: 5%;
+
+
+}
+.btns{
+    position: absolute;
+    bottom: 70px; right: 20px;
+    
+
+}
+
+.link2:hover {
+    background-color: aliceblue;
+}
+
+.home{
+
+    position: absolute;
+    top: 20px; right: 90px;
+   
+}
+a img{
+
+    width: 70px;
+    height: 70px;
+
+}
+

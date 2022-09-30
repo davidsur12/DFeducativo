@@ -227,3 +227,15 @@ a img{
     position: absolute;top: 0;left: 0;
    
 }
+
+.home{
+
+    position: absolute;
+    top: 20px; right: 80px;
+   
+}
+a img{
+
+    width: 70px;
+    height: 70px;
+}

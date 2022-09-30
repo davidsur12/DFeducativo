@@ -474,3 +474,16 @@ li {
 #ardoraQuest img {
     cursor: pointer;
 }
+
+.home{
+
+    position: absolute;
+    top: 20px; right: 20px;
+   
+}
+a img{
+
+    width: 70px;
+    height: 70px;
+
+}
