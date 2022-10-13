@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #064A7C;
+}
+
+.titulo{
+
+    background-color: #fff;
+    width: 80%;
+    height: 90px;
+    
+    margin-top: 10px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  
+
+    margin-top: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.titulo .ayuda{
+    
+
+    width: 80px;
+    height: 87px;
+
+    float: right;
+    
+   
+ 
+ 
+  
+
+
+}
+
+.link2 {
+    background-color: yellow;
+    color: black;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+  
+   
+    text-align: center;
+    text-decoration: none;
+  
+    width: auto;
+    float: right;
+ 
+    padding: 17px;
+    padding-right: 30px;
+    padding-left: 30px;
+    overflow: auto;
+    
+    height: auto;
+
+
+}
+.atrass {
+
+    display: flex;
+    justify-items: left;
+    justify-content: left;
+
+    width: 10%;
+    height: 10%;
+    float: left;
+
+}
+
+
+
+.atrass img {
+
+    width: 80px;
+    height: 80px;
+    display: flex;
+}
+
+a img{
+
+    width: 70px;
+    height: 70px;
+
+}
+
+.imageTitulo{
+
+    margin-top: 50px;
+}
+.imageTitulo img{
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    margin: 0  auto;
+}
+.imageTitulo p{
+
+    padding: 50px;
+    background-color: #FBFB04;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0  auto;
+    margin-top: 50px;
+    border-radius: 20px;
+
+}
