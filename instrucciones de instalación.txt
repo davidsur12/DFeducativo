@@ -1,0 +1,23 @@
+instrucciones de instalación
+
+
+Sigue los siguientes pasos para hacer uso del software
+1)	descomprime el Software en una carpeta.
+2)	Abre la carpeta donde descomprimiste los archivos del software.
+3)	En los archivos que descomprimiste encontraras varias carpetas y archivos abre el archivo con el nombre index.html en tu navegador.
+4)	Lee el manual de usuario para entender cómo funciona el software.
+
+
+Requerimientos de Hardware
+
+Para el uso del software los requisitos mínimos son:
+• S.O: Linux Windows 7, 8.1, 10, 11 x64 o x32 bits
+• RAM 2GB
+• Procesador: 1.66 GHz Intel i3 o equivalente
+• Almacenamiento: 512 MB de espacio disponible
+• Altavoces
+Requerimientos de Software
+
+Para que el usuario pueda interactuar con la aplicación necesita de un
+navegador que puede ser Google Chrome, Mozilla, Firefox, Opera,
+entre otros (de preferencia Google Chrome).
